@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ibkr-webhook
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
